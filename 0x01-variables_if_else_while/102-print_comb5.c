@@ -20,11 +20,12 @@ putchar((num1 % 10) + 48);
 putchar(' ');
 putchar((num2 / 10) + 48);
 putchar((num2 % 10) + 48);
-}
-if (num1 == 99 && num2 == 98)
-continue;
+if (num1 != 98 && num2 != 99)
+{
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 putchar('\n');
